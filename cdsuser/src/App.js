@@ -200,9 +200,7 @@ function App() {
             />
           )}
         </UserListContext.Provider>
-        <CDSFlex>
-          <CDSButton style={{ height: "600px", width: "40%", position: "relative",transform:"rotate(-90deg)" }} onClick={()=>setDisplayForm(true)}>Add New User</CDSButton>
-        {displayForm && <CDSContainer
+        <CDSContainer
           style={{ height: "600px", width: "40%", position: "relative" }}
         >
           <CDSFlex direction="vertical" gap="md">
@@ -273,8 +271,7 @@ function App() {
               </CDSButton>
             </CDSFlex>
           </CDSFlex>
-        </CDSContainer>}
-        </CDSFlex>
+        </CDSContainer>
         <CDSContainer
           height={650}
           style={
