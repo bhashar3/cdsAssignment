@@ -1,0 +1,32 @@
+@import '@ciscodesignsystems/cds-magnetic-theme-web/css/dist/token-theme-light-variables.css';
+@import '@ciscodesignsystems/cds-react-container/index.css';
+@import '@ciscodesignsystems/cds-react-flex/index.css';
+@import '@ciscodesignsystems/cds-react-text/index.css';
+@import '@ciscodesignsystems/cds-react-button/index.css';
+@import '@ciscodesignsystems/cds-react-spinner/index.css';
+@import '@ciscodesignsystems/cds-react-text-input/index.css';
+@import '@ciscodesignsystems/cds-react-divider/index.css';
+@import '@ciscodesignsystems/cds-react-tag/index.css';
+@import '@ciscodesignsystems/cds-react-tooltip/index.css';
+@import '@ciscodesignsystems/cds-react-popover/index.css';
+@import '@ciscodesignsystems/cds-react-nav/index.css';
+@import '@ciscodesignsystems/cds-react-breadcrumb/index.css';
+@import '@ciscodesignsystems/cds-react-heading/index.css';
+@import '@ciscodesignsystems/cds-react-header/index.css';
+@import '@ciscodesignsystems/cds-react-footer/index.css';
+@import '@ciscodesignsystems/cds-react-logos/index.css';
+@import '@ciscodesignsystems/cds-react-footer/index.css';
+@import '@ciscodesignsystems/cds-react-notification/index.css';
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
